@@ -1,0 +1,35 @@
+.header-section .header-logo {
+  color: var(--color-contrast-high);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header-section .nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-contrast-high);
+  text-decoration: none;
+  display: block;
+}
+
+.header-section .nav-link:hover,
+.header-section .nav-link:focus {
+  color: var(--color-brand-pressed);
+}
+
+.header-section .contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.header-section .contact-link:hover,
+.header-section .contact-link:focus {
+  color: var(--color-brand-pressed);
+}
+
+.header-section .contacts {
+  font-style: normal
+}

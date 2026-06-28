@@ -1,0 +1,52 @@
+:root {
+  --color-brand-default: #4d5ae5;
+  --color-brand-pressed: #404bbf;
+  --color-text-primary: #434455;
+  --color-text-secondary: #8e8f99;
+  --color-contrast-high: #2e2f42;
+  --color-surface-primary: #ffffff;
+  --color-surface-default: #f4f4fd;
+  --color-surface-hero: #2e2f42;
+  --color-accent-subtle: #e7e9fc;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-contrast-high);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--color-brand-default);
+}

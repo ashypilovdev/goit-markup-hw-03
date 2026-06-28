@@ -1,0 +1,29 @@
+.team-section {
+  background-color: var(--color-surface-default);
+}
+
+.team-section .team-item {
+  background-color: var(--color-surface-primary);
+}
+
+.team-section .team-img {
+  display: block;
+}
+
+.team-section .team-card-content {
+  text-align: center;
+}
+
+.team-section .team-member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-contrast-high);
+}
+
+.team-section .team-member-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
