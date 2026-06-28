@@ -29,12 +29,17 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .section-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--color-contrast-high);
+  margin-bottom: 72px;
 }
 
 .logo {
@@ -49,4 +54,17 @@ body {
 
 .logo-accent {
   color: var(--color-brand-default);
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }

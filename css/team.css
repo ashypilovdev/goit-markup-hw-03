@@ -1,7 +1,10 @@
 .team-section {
   background-color: var(--color-surface-default);
 }
-
+.team-section .team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-section .team-item {
   background-color: var(--color-surface-primary);
 }
